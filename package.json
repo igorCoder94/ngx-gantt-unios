@@ -115,7 +115,6 @@
       "commit": true
     }
   },
-  "main": ".docgenirc.js",
   "directories": {
     "doc": "docs",
     "example": "example"
@@ -127,5 +126,14 @@
   "bugs": {
     "url": "https://github.com/worktile/ngx-gantt/issues"
   },
-  "homepage": "https://github.com/worktile/ngx-gantt#readme"
+  "homepage": "https://github.com/worktile/ngx-gantt#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "dist/gantt/fesm2022/worktile-gantt.mjs",
+  "module": "dist/gantt/fesm2022/worktile-gantt.mjs",
+  "types": "dist/gantt/index.d.ts",
+  "style": "dist/gantt/styles/index.scss"
 }
